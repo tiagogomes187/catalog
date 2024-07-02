@@ -1,0 +1,21 @@
+-- Inserir 20 linhas com nomes de categorias
+INSERT INTO tb_categories (name) VALUES ('Eletrônicos');
+INSERT INTO tb_categories (name) VALUES ('Moda feminina');
+INSERT INTO tb_categories (name) VALUES ('Moda masculina');
+INSERT INTO tb_categories (name) VALUES ('Calçados');
+INSERT INTO tb_categories (name) VALUES ('Acessórios');
+INSERT INTO tb_categories (name) VALUES ('Beleza e cuidados pessoais');
+INSERT INTO tb_categories (name) VALUES ('Casa e decoração');
+INSERT INTO tb_categories (name) VALUES ('Livros e papelaria');
+INSERT INTO tb_categories (name) VALUES ('Esportes e lazer');
+INSERT INTO tb_categories (name) VALUES ('Brinquedos e jogos');
+INSERT INTO tb_categories (name) VALUES ('Alimentos e bebidas');
+INSERT INTO tb_categories (name) VALUES ('Móveis e decoração');
+INSERT INTO tb_categories (name) VALUES ('Joias e bijuterias');
+INSERT INTO tb_categories (name) VALUES ('Produtos para pets');
+INSERT INTO tb_categories (name) VALUES ('Produtos naturais e orgânicos');
+INSERT INTO tb_categories (name) VALUES ('Produtos para bebês e crianças');
+INSERT INTO tb_categories (name) VALUES ('Tecnologia e gadgets');
+INSERT INTO tb_categories (name) VALUES ('Produtos de limpeza e organização');
+INSERT INTO tb_categories (name) VALUES ('Arte e artesanato');
+INSERT INTO tb_categories (name) VALUES ('Produtos personalizados');
