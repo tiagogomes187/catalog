@@ -1,5 +1,6 @@
 package br.dev.tiagogomes.catalog.resources;
 
+import br.dev.tiagogomes.catalog.dto.CategoryDTO;
 import br.dev.tiagogomes.catalog.entities.Category;
 import br.dev.tiagogomes.catalog.services.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,8 +19,8 @@ public class CategoryResource {
 	private CategoryService service;
 
 	@GetMapping
-	public ResponseEntity<List<Category>> findAll() {
-		List<Category> list = service.findAll();
+	public ResponseEntity<List<CategoryDTO>> findAll() {
+		List<CategoryDTO> list = service.findAll();
 		return ResponseEntity.ok().body(list);
 	}
 }
