@@ -1,4 +1,4 @@
-package br.dev.tiagogomes.devsuperior.catalog;
+package br.dev.tiagogomes.catalog;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
